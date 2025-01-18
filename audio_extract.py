@@ -2,7 +2,7 @@ from moviepy.editor import VideoFileClip
 
 try:
     # Open the video file
-    video = VideoFileClip("Video.mp4")
+    video = VideoFileClip("filename.ext")
 
     # Extract the audio
     audio = video.audio
